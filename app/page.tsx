@@ -12,6 +12,7 @@ export default function Home() {
 			<Button variant={'dangerOutline'}>Danger Outline</Button>
 			<Button variant={'super'}>Super</Button>
 			<Button variant={'superOutline'}>Super Outline</Button>
+			<Button variant={'ghost'}>Ghost</Button>
 		</main>
 	)
 }
