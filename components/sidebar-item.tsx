@@ -1,5 +1,6 @@
 'use client'
 
+import { usePathname } from 'next/navigation'
 import { Button } from './ui/button'
 
 type Props = {
@@ -9,6 +10,8 @@ type Props = {
 }
 
 const SidebarItem = ({ href, iconSrc, label }: Props) => {
+	const pathName = usePathname()
+
 	return <Button>{label}</Button>
 }
 
