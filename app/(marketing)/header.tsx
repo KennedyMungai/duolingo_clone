@@ -11,6 +11,9 @@ const Header = () => {
 						height={48}
 						alt={'Mascot'}
 					/>
+					<h1 className='text-2xl font-extrabold tracking-wide text-green-600'>
+						Lingo
+					</h1>
 				</div>
 			</div>
 		</header>
