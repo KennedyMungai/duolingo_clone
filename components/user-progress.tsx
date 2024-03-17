@@ -18,7 +18,7 @@ const UserProgress = ({
 	return (
 		<div className='flex items-center justify-between gap-x-2 w-full'>
 			<Link href={'/courses'}>
-				<Button>
+				<Button variant={'ghost'}>
 					<Image
 						src={activeCourse.imageSrc}
 						alt={activeCourse.title}
