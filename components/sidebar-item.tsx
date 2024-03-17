@@ -1,8 +1,9 @@
 'use client'
 
+import Image from 'next/image'
+import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { Button } from './ui/button'
-import Link from 'next/link'
 
 type Props = {
 	label: string
@@ -21,7 +22,16 @@ const SidebarItem = ({ href, iconSrc, label }: Props) => {
 			className='justify-start h-[52px]'
 			asChild
 		>
-			<Link href={href}>{label}</Link>
+			<Link href={href}>
+				<Image
+					src={iconSrc}
+					alt={label}
+					width={32}
+					height={32}
+					className='mr-5'
+				/>
+				{label}
+			</Link>
 		</Button>
 	)
 }

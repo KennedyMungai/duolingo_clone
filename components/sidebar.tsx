@@ -29,7 +29,11 @@ const SideBar = ({ className }: Props) => {
 				</div>
 			</Link>
 			<div className='flex flex-col gap-y-2 flex-1'>
-				<SidebarItem label={'Learn'} iconSrc={''} href={'/learn'} />
+				<SidebarItem
+					label={'Learn'}
+					iconSrc={'/learn.svg'}
+					href={'/learn'}
+				/>
 			</div>
 		</aside>
 	)
