@@ -1,5 +1,6 @@
 import { cn } from '@/lib/utils'
 import Image from 'next/image'
+import Link from 'next/link'
 
 type Props = {
 	className?: string
@@ -13,17 +14,19 @@ const SideBar = ({ className }: Props) => {
 				className
 			)}
 		>
-			<div className='pt-8 pl-4 pb-7 flex items-center gap-x-3'>
-				<Image
-					src={'/mascot.svg'}
-					width={48}
-					height={48}
-					alt={'Mascot'}
-				/>
-				<h1 className='text-2xl font-extrabold tracking-wide text-green-600'>
-					Lingo
-				</h1>
-			</div>
+			<Link href='/'>
+				<div className='pt-8 pl-4 pb-7 flex items-center gap-x-3'>
+					<Image
+						src={'/mascot.svg'}
+						width={48}
+						height={48}
+						alt={'Mascot'}
+					/>
+					<h1 className='text-2xl font-extrabold tracking-wide text-green-600'>
+						Lingo
+					</h1>
+				</div>
+			</Link>
 		</aside>
 	)
 }
