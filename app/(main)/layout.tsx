@@ -1,3 +1,4 @@
+import SideBar from '@/components/sidebar'
 import { ReactNode } from 'react'
 
 type Props = {
@@ -5,7 +6,14 @@ type Props = {
 }
 
 const MainLayoutPage = ({ children }: Props) => {
-	return <main className='min-h-screen'>{children}</main>
+	return (
+		<>
+			<SideBar />
+			<main className='pl-[256px] h-full'>
+				<div className='bg-red-500 h-full'>{children}</div>
+			</main>
+		</>
+	)
 }
 
 export default MainLayoutPage
