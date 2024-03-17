@@ -5,6 +5,6 @@
 		}
 	],
 	"settings": {
-		"cSpell.words": ["Duolingo", "nextjs"]
+		"cSpell.words": ["Duolingo", "nextjs", "trpc"]
 	}
 }
