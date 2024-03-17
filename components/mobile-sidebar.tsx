@@ -1,9 +1,9 @@
 'use client'
 
 import { Menu } from 'lucide-react'
-import { Button } from './ui/button'
-import { SheetContent, SheetTrigger, Sheet } from './ui/sheet'
 import SideBar from './sidebar'
+import { Button } from './ui/button'
+import { Sheet, SheetContent, SheetTrigger } from './ui/sheet'
 
 type Props = {}
 
