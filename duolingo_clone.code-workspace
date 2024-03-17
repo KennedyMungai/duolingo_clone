@@ -6,12 +6,14 @@
 	],
 	"settings": {
 		"cSpell.words": [
+			"clsx",
 			"Duolingo",
 			"Kiswahili",
 			"leaderboard",
 			"leaderboards",
 			"lucide",
 			"nextjs",
+			"tailwindcss",
 			"trpc"
 		]
 	}
