@@ -10,7 +10,7 @@ type Props = {}
 const MobileSidebar = (props: Props) => {
 	return (
 		<Sheet>
-			<SheetTrigger>
+			<SheetTrigger asChild>
 				<Button variant={'ghost'}>
 					<Menu />
 				</Button>
