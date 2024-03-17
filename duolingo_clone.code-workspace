@@ -5,6 +5,14 @@
 		}
 	],
 	"settings": {
-		"cSpell.words": ["Duolingo", "Kiswahili", "lucide", "nextjs", "trpc"]
+		"cSpell.words": [
+			"Duolingo",
+			"Kiswahili",
+			"leaderboard",
+			"leaderboards",
+			"lucide",
+			"nextjs",
+			"trpc"
+		]
 	}
 }
