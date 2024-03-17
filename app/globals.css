@@ -5,7 +5,7 @@
 :root,
 html,
 body {
-  height: 100%;
+  @apply h-full;
 }
 
 @layer base {
