@@ -1,5 +1,3 @@
-'use client'
-
 import { Menu } from 'lucide-react'
 import SideBar from './sidebar'
 import { Button } from './ui/button'
