@@ -15,7 +15,7 @@ const MobileSidebar = (props: Props) => {
 					<Menu />
 				</Button>
 			</SheetTrigger>
-			<SheetContent side={'left'}>
+			<SheetContent side={'left'} className='p-0'>
 				<SideBar />
 			</SheetContent>
 		</Sheet>
