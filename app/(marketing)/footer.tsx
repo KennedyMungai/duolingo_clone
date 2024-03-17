@@ -11,9 +11,49 @@ const Footer = () => {
 						alt='Kiswahili'
 						height={32}
 						width={40}
-						className='mr-4 rounded-md'
+						className='mr-4 rounded-md shadow-lg'
 					/>
 					Kiswahili
+				</Button>
+				<Button size={'lg'} variant={'ghost'} className='w-full'>
+					<Image
+						src='/es.svg'
+						alt='Spanish'
+						height={32}
+						width={40}
+						className='mr-4 rounded-md shadow-lg'
+					/>
+					Spanish
+				</Button>
+				<Button size={'lg'} variant={'ghost'} className='w-full'>
+					<Image
+						src='/fr.svg'
+						alt='French'
+						height={32}
+						width={40}
+						className='mr-4 rounded-md shadow-lg'
+					/>
+					French
+				</Button>
+				<Button size={'lg'} variant={'ghost'} className='w-full'>
+					<Image
+						src='/it.svg'
+						alt='French'
+						height={32}
+						width={40}
+						className='mr-4 rounded-md shadow-lg'
+					/>
+					Italian
+				</Button>
+				<Button size={'lg'} variant={'ghost'} className='w-full'>
+					<Image
+						src='/jp.svg'
+						alt='Japanese'
+						height={32}
+						width={40}
+						className='mr-4 rounded-md shadow-lg'
+					/>
+					Japanese
 				</Button>
 			</div>
 		</footer>
