@@ -8,8 +8,8 @@ type Props = {
 const MainLayoutPage = ({ children }: Props) => {
 	return (
 		<>
-			<SideBar />
-			<main className='pl-[256px] h-full'>
+			<SideBar className='hidden lg:flex' />
+			<main className='lg:pl-[256px] h-full'>
 				<div className='bg-red-500 h-full'>{children}</div>
 			</main>
 		</>
