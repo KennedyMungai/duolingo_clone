@@ -1,3 +1,5 @@
+import { ClerkLoading } from '@clerk/nextjs'
+import { Loader } from 'lucide-react'
 import Image from 'next/image'
 
 const Header = () => {
@@ -15,6 +17,9 @@ const Header = () => {
 						Lingo
 					</h1>
 				</div>
+				<ClerkLoading>
+					<Loader className='h-5 w-5 text-muted-foreground animate-spin' />
+				</ClerkLoading>
 			</div>
 		</header>
 	)
