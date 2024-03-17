@@ -1,7 +1,5 @@
-import React from 'react'
-
 type Props = {
-	activeCourse: string
+	activeCourse: any
 	hearts: number
 	points: number
 	hasActiveSubscription: boolean
