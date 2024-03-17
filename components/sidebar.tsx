@@ -15,7 +15,7 @@ const SideBar = ({ className }: Props) => {
 				className
 			)}
 		>
-			<Link href='/'>
+			<Link href='/learn'>
 				<div className='pt-8 pl-4 pb-7 flex items-center gap-x-3'>
 					<Image
 						src={'/mascot.svg'}

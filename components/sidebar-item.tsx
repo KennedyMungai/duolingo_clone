@@ -12,7 +12,13 @@ type Props = {
 const SidebarItem = ({ href, iconSrc, label }: Props) => {
 	const pathName = usePathname()
 
-	return <Button>{label}</Button>
+	const isActive = pathName === href
+
+	return (
+		<Button variant={isActive ? 'sidebarOutline' : 'sidebar'}>
+			{label}
+		</Button>
+	)
 }
 
 export default SidebarItem
