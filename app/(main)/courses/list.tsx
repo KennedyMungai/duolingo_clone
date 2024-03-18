@@ -1,6 +1,6 @@
 'use client'
 
-import Card from "./card"
+import Card from './card'
 
 type Props = {
 	courses: Course[]
@@ -15,10 +15,10 @@ const List = ({ activeCourseId, courses }: Props) => {
 					key={course.id}
 					id={course.id}
 					title={course.title}
-                    imageSrc={course.imageSrc}
-                    onClick={() = {}}
-                    disabled={false}
-                    active={course.id === activeCourseId}
+					imageSrc={course.imageSrc}
+					onClick={() => {}}
+					disabled={false}
+					active={course.id === activeCourseId}
 				/>
 			))}
 		</div>
