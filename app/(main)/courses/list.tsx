@@ -1,11 +1,11 @@
-import React from 'react'
+'use client'
 
 type Props = {
-    courses: Course[]
-    activeCourseId: string
+	courses: Course[]
+	activeCourseId: string
 }
 
-const List = ({activeCourseId, courses}: Props) => {
+const List = ({ activeCourseId, courses }: Props) => {
 	return <div>List</div>
 }
 
