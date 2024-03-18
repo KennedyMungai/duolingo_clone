@@ -1,4 +1,5 @@
 import { getCourses } from '@/db/queries'
+import List from './list'
 
 const Courses = async () => {
 	const courses = await getCourses()
