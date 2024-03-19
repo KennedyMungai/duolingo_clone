@@ -4,7 +4,7 @@ import { cache } from 'react'
 import { db } from './drizzle'
 import { userProgress } from './schema'
 
-export const getUserProgress = cache(async (id: string) => {
+export const getUserProgress = cache(async () => {
 	const { userId } = await auth()
 
 	if (!userId) return null
@@ -20,7 +20,7 @@ export const getUserProgress = cache(async (id: string) => {
 })
 
 export const getCourses = cache(async () => {
-	const courses: Course[] = await db.query.courses.findMany()
+	const courses = await db.query.courses.findMany()
 
 	return courses
 })

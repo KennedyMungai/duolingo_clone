@@ -1,9 +1,10 @@
 'use client'
 
+import { courses } from '@/db/schema'
 import Card from './card'
 
 type Props = {
-	courses: Course[]
+	courses: (typeof courses.$inferSelect)[]
 	activeCourseId: string
 }
 
