@@ -5,7 +5,7 @@ import Card from './card'
 
 type Props = {
 	courses: (typeof courses.$inferSelect)[]
-	activeCourseId: typeof userProgress.$inferSelect.activeCourseId
+	activeCourseId?: typeof userProgress.$inferSelect.activeCourseId
 }
 
 const List = ({ activeCourseId, courses }: Props) => {
